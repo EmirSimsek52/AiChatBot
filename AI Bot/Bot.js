@@ -25,7 +25,7 @@ import {
 
 export default function Bot(){
   const[data, setData] = useState([]);
-  const apiKey= "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";
+  const apiKey= "Your Api Key";
   const baseUrl= 'https://api.openai.com/v1/engines/text-davinci-002/completions';
   const [textInput, settextInput] = useState('');
   const handleSend = async () => {
